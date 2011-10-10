@@ -8,7 +8,11 @@ One way is to get the source code and use the webOS SDK tools to package it and 
 ###License
 Source code is available under a MIT style license, so you are free to do with it as you desire. It would be kind (but not necessary) to let me know.
 
+The very nice application icon was made by [Gary Leleu](http://www.leleugary.com/) @ [DeviantArt.com](http://dunedhel.deviantart.com/). It is available under a [CC BY-NC-ND 3.0 license](http://creativecommons.org/licenses/by-nc-nd/3.0/). Please check out his website if you're interested.
+
 ###Some coding notes
+It is a Mojo framework-based application and should work with webOS 1.4+
+
 At its core this app is just a wrapper around the HTML5 Audio element with some ability to store streams for later use. So all info and functions exposed by this element within webOS can be used. Currently no *now playing* info can be fetched through this means.
 
 ####Changelog
