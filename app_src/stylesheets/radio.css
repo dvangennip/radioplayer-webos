@@ -1,0 +1,186 @@
+/*
+   Extends the global iconography stylesheet
+*/
+
+/* Menu styling etc. */
+
+.palm-scrim.menu-usable {
+  z-index: 1;
+}
+
+body.palm-dark {
+  background: url(../images/background.png) center center;
+}
+
+.palm-body-text-wrapper > .palm-body-text {
+  color: #FFFFFF;
+}
+
+.streams-info-text {
+  margin: 10px;
+  color: #DDD;
+  text-align: center;
+  font-size: 14pt;
+  font-weight: bold;
+  line-height: 35px;
+}
+
+.response-text {
+  margin: 10px;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+/* Width override for Mojo on TouchPad */
+
+body.palm-dark.tablet {
+  background: url(../images/background-big.png) center center no-repeat;
+}
+
+#content_wrapper.tablet {
+  display: block;
+  margin: 0 auto;
+  padding-top: 10px;
+  max-width: 510px;
+}
+
+.palm-page-header-tablet {
+  display: block;
+  height: 54px;
+  background: url(../images/palm-page-header-tablet.png) 0 0 repeat;
+}
+
+.palm-page-header-wrapper-tablet {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.palm-page-header-wrapper-tablet > .icon {
+  display: none;
+}
+
+.palm-page-header-wrapper-tablet > .title {
+  padding: 14px 0 0 0;
+}
+
+.palm-body-text.first {
+  margin-top: 10px;
+}
+
+/* Popup header menu styling - no dark styling available in framework */
+
+.palm-menu-panel {
+  -webkit-border-image: url(../images/palm-menu-panel-dark.png) 24 24 24 24 repeat stretch;
+}
+
+.palm-menu-panel-wrapper {
+  margin: 20px -16px -8px -16px;
+}
+
+.palm-menu-panel-fade-top-bg {
+  -webkit-border-image: url(../images/palm-menu-panel-fade-top-dark.png) 0 24 0 24 repeat repeat;
+}
+
+.palm-menu-panel-fade-bottom-bg {
+  -webkit-border-image: url(../images/palm-menu-panel-fade-bottom-dark.png) 0 24 0 24 repeat repeat;
+}
+
+.palm-menu-panel-fade-bottom-arrow {
+  background: url(../images/palm-popup-fade-arrow-down-dark.png) center center no-repeat;
+}
+
+/* Stream info panel styles */
+
+.stream-info-wrapper {}
+
+#content_wrapper.tablet > .stream-info-wrapper {}
+
+#stream_current_bottom {}
+
+#stream_artist {
+  font-size: 1em;
+  color: #FFFFFF;
+  margin-bottom: 5px;
+}
+
+#stream_song {
+  font-size: 0.9em;
+  color: #FFFFFF;
+}
+
+/* Overall iconography */
+
+.palm-account-icon.radio {
+	background: url(../images/icon-small.png) center center no-repeat;
+}
+.palm-account-icon.radio.medium {
+	background: url(../images/icon-medium.png) center center no-repeat;
+}
+
+/* Menu iconography */
+
+.palm-header .icon.none {
+    background: none;
+}
+
+.palm-header .icon.radio {
+  background:url(../images/icon-small.png) 0 0 no-repeat;
+  width: 32px;
+  height: 32px;
+  float: left;
+  margin-left: -10px;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+.palm-header .icon.play {
+  background:url(../images/dashboard_buttons.png) 0 0 no-repeat;
+  width: 48px;
+  height: 48px;
+  float: right;
+  margin-right: -18px;
+  margin-top: 1px;
+}
+
+.palm-header .icon.pending {
+  background:url(../images/dashboard_buttons.png) -96px 0 no-repeat;
+  width: 48px;
+  height: 48px;
+  float: right;
+  margin-right: -18px;
+  margin-top: 1px;
+}
+
+.palm-header .icon.stop {
+  background:url(../images/dashboard_buttons.png) -48px 0 no-repeat;
+  width: 48px;
+  height: 48px;
+  float: right;
+  margin-right: -18px;
+  margin-top: 1px;
+}
+
+/* Label styles */
+
+.palm-dark .palm-divider .label, .palm-dark .palm-group-title, .palm-dark .label.mv-picker-label, .palm-dark .palm-row .label {
+    color: #DDDD66;
+}
+
+.stream-details-link {
+    background: url(../images/stream-details-button-press.png);
+    background: none;
+    height: 52px;
+    -webkit-border-image: url(../images/stream-details-button.png) 0 35 0 0;
+    border-width: 3px 35px 0px 0px;
+    position: relative;
+    padding-right: 5px;
+    width: auto !important;
+    min-width: 20px;
+    margin-left: -25px;
+}
+
+.lalala {
+    padding-top: 12px;
+    padding-left: 12px;
+}

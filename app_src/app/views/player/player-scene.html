@@ -1,0 +1,32 @@
+<div id="main_header" class="palm-header left"  x-mojo-tap-highlight="momentary">
+    <div class="icon radio"></div>
+    <div id="play_button" class="icon play"></div>
+    <div id="main_header_title" class="truncating-text"></div>
+</div>
+<div class="palm-header-spacer"></div>
+<!-- Main contents -->
+<div id="content_wrapper">
+	<!-- weather info goes in section below -->
+	<div id="stream_current" class="stream-info-wrapper">
+		<div id="stream_info" class="palm-body-text-wrapper">
+			<div id="stream_artist" class="palm-body-title"></div>
+			<div id="stream_song" class="palm-body-text"></div>
+		</div>
+	</div>
+	<div id="stream_current_bottom"></div>
+	<!-- streams go in section below -->
+	<table class="palm-divider labeled"><tbody>
+		<tr>
+			<td class="left"></td>
+			<td id="streams_divider" class="label">All streams</td>
+			<td class="right"></td>
+		</tr>
+	</tbody></table>
+	<div id="player_streams">
+		<div id="streams_list" x-mojo-element="List"></div>
+		<div id="streams_info_message" class="streams-info-text">
+			You have yet to add streams.<br/>
+			Add one by pressing the + sign.
+		</div>
+	</div>
+</div>
